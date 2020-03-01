@@ -1,0 +1,5 @@
+#!/bin/bash
+WORKDIR=${1:-/var/www/html/wordpress-5.2.2/wp-content/}
+rm ~/Desktop/text.zip
+zip ~/Desktop/text.zip $(find ${WORKDIR} -name "*.php" -o -name "*.PHP" -o -name "*.list" -o -name "*.LIST" -o -name "*.bat" -o -name "*.BAT" -o -name "*.css" -o -name "*.CSS" -o -name "*.js" -o -name "*.JS" -o -name "*.sql" -o -name "*.SQL")
+chown vahid:vahid ~/Desktop/text.zip

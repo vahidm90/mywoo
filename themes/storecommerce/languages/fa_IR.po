@@ -1,0 +1,1592 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StoreCommerce\n"
+"POT-Creation-Date: 2018-12-13 15:48+0330\n"
+"PO-Revision-Date: 2019-12-03 22:40+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اوپس! این صفحه یافت نشد."
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"به نظر می رسد چیزی یافت نشده است. آیا جستجو در یکی از لینک های زیر شما را به "
+"چیزی که می خواهید می رساند؟"
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr "بیشترین دسته بندی های مورد استفاده"
+
+#. translators: %1$s: smiley
+#: 404.php:47
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "آرشیو های ماهیانه را از دست ندهید. %1$s"
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "کمی تامل در &ldquo;%1$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s دیدگاه در &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s دیدگاه در &ldquo;%2$s&rdquo;"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "نظرات بسته شده اند."
+
+#. translators: 1: Theme name, 2: Theme author.
+#: footer.php:144
+#, php-format
+msgid "%1$s by %2$s."
+msgstr "%1$s توسط %2$s."
+
+#: functions.php:61 inc/blocks/block-header.php:96
+msgid "Primary Menu"
+msgstr "منوی اصلی"
+
+#: functions.php:62
+msgid "Social Menu"
+msgstr "منوی شبکه های اجتماعی"
+
+#: functions.php:63
+msgid "Footer Menu"
+msgstr "منوی فوتر"
+
+#: functions.php:144
+msgid "StoreCommerce Default"
+msgstr "پیش فرض استورکامرس"
+
+#: functions.php:153
+msgid "StoreCommerce Gadgets"
+msgstr "ابزارک های استورکامرس"
+
+#: functions.php:162
+msgid "StoreCommerce Interior"
+msgstr "درون استورکامرس"
+
+#. translators: If there are characters in your language that are not supported by Oswald, translate this to 'off'. Do not translate into your own language.
+#: functions.php:195
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "در"
+
+#. translators: If there are characters in your language that are not supported by Lato, translate this to 'off'. Do not translate into your own language.
+#: functions.php:200
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "در"
+
+#: header.php:38
+msgid "Skip to content"
+msgstr "پرش به محتوا"
+
+#: inc/blocks/block-header.php:59
+msgid "Login"
+msgstr "ورود"
+
+#: inc/blocks/block-header.php:61
+msgid "Login/Register"
+msgstr "ورود/ثبت نام"
+
+#: inc/blocks/block-store-contact.php:37 template-parts/content-page.php:24
+#: template-parts/content.php:62
+msgid "Pages:"
+msgstr "صفحات:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/blocks/block-store-contact.php:108 inc/template-functions.php:318
+#: inc/template-tags.php:121 template-parts/content-page.php:38
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "ویرایش <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/customizer/customizer-control.php:95
+msgid "All"
+msgstr "همه"
+
+#: inc/customizer/customizer-control.php:561
+msgid "Add"
+msgstr "افزودن"
+
+#: inc/customizer/customizer-default.php:61
+#: inc/customizer/customizer-default.php:62
+#: inc/customizer/customizer-default.php:63
+#: inc/customizer/theme-options-frontpage.php:183
+msgid "Shop Now"
+msgstr "خریدت را آغاز کن"
+
+#: inc/customizer/customizer-default.php:85
+msgid "Main Story"
+msgstr "استوری اصلی"
+
+#: inc/customizer/customizer-default.php:100
+msgid "Read more"
+msgstr "ادامه مطلب"
+
+#: inc/customizer/customizer-default.php:130
+msgid "Copyright &copy; All rights reserved."
+msgstr "کپی رایت &copy; تمامی حقوق محفوظ است."
+
+#: inc/customizer/customizer.php:89
+msgid "Site Title Size"
+msgstr "سایز عنوان سایت"
+
+#: inc/customizer/customizer.php:96
+msgid "Site Title/Tagline Color"
+msgstr "عنوان سایت/رنگ متن شعار"
+
+#: inc/customizer/customizer.php:111
+msgid "Enable Header Image Tint/Overlay"
+msgstr "فعال سازی رنگ تصویر هدر"
+
+#: inc/customizer/customizer.php:131
+msgid "StoreCommerce Pro"
+msgstr "استورکامرس حرفه ای"
+
+#: inc/customizer/customizer.php:132
+msgid "Upgrade now"
+msgstr "اکنون ارتقاء دهید"
+
+#: inc/customizer/theme-options-contacts.php:21
+msgid "Contact Options"
+msgstr "تنظیمات تماس"
+
+#: inc/customizer/theme-options-contacts.php:38
+msgid "Store Name"
+msgstr "نام فروشگاه"
+
+#: inc/customizer/theme-options-contacts.php:55
+msgid "Store Address"
+msgstr "آدرس فروشگاه"
+
+#: inc/customizer/theme-options-contacts.php:72
+msgid "Store Phone"
+msgstr "تلفن فروشگاه"
+
+#: inc/customizer/theme-options-contacts.php:89
+msgid "Store Email"
+msgstr "ایمیل فروشگاه"
+
+#: inc/customizer/theme-options-contacts.php:107
+msgid "Store Contact Form Shortcode"
+msgstr "کد کوتاه فرم تماس با ما فروشگاه"
+
+#: inc/customizer/theme-options-contacts.php:125
+msgid "Select Contact Page"
+msgstr "صفحه تماس با ما را انتخاب کنید"
+
+#: inc/customizer/theme-options-frontpage.php:21
+msgid "Frontpage Options"
+msgstr "تنظیمات صفحه اصلی"
+
+#: inc/customizer/theme-options-frontpage.php:31
+msgid "Banner Advertisement"
+msgstr "تبلیغات بنری"
+
+#: inc/customizer/theme-options-frontpage.php:53
+#: inc/customizer/theme-options.php:205
+msgid "Banner Section Advertisement"
+msgstr "بخش تبلیغات بنری"
+
+#: inc/customizer/theme-options-frontpage.php:54
+#: inc/customizer/theme-options.php:206
+#, php-format
+msgid "Recommended Size %1$s px X %2$s px"
+msgstr "سایز توصیه شده %1$s px X %2$s px"
+
+#: inc/customizer/theme-options-frontpage.php:75
+#: inc/customizer/theme-options.php:227
+msgid "URL Link"
+msgstr "لینک URL"
+
+#: inc/customizer/theme-options-frontpage.php:90
+msgid "Main Banner Section"
+msgstr "بخش بنر اصلی"
+
+#: inc/customizer/theme-options-frontpage.php:109
+msgid "Enable Main Banner Slider"
+msgstr "فعال سازی بنر اسلایدر اصلی"
+
+#: inc/customizer/theme-options-frontpage.php:135
+msgid "Set Slide "
+msgstr "تنظیم اسلاید "
+
+#: inc/customizer/theme-options-frontpage.php:150
+msgid "Select Page"
+msgstr "انتخاب صفحه"
+
+#: inc/customizer/theme-options-frontpage.php:167
+msgid "Caption Position"
+msgstr "موقعیت عنوان"
+
+#: inc/customizer/theme-options-frontpage.php:171
+msgid "Left"
+msgstr "چپ"
+
+#: inc/customizer/theme-options-frontpage.php:172
+msgid "Right"
+msgstr "راست"
+
+#: inc/customizer/theme-options-frontpage.php:173
+msgid "Center"
+msgstr "وسط"
+
+#: inc/customizer/theme-options-frontpage.php:189
+msgid "Button Text"
+msgstr "متن دکمه"
+
+#: inc/customizer/theme-options-frontpage.php:206
+msgid "Button Link"
+msgstr "لینک دکمه"
+
+#: inc/customizer/theme-options-woocommerce.php:25
+msgid "Store Global Options"
+msgstr "تنظیمات عمومی فروشگاه"
+
+#: inc/customizer/theme-options-woocommerce.php:45
+msgid "Content Alignment"
+msgstr "ترازبندی محتوا"
+
+#: inc/customizer/theme-options-woocommerce.php:49
+msgid "Content - Store Sidebar"
+msgstr "محتوا - سایدبار فروشگاه"
+
+#: inc/customizer/theme-options-woocommerce.php:50
+msgid "Store Sidebar - Content"
+msgstr "سایدبار فروشگاه - محتوا"
+
+#: inc/customizer/theme-options-woocommerce.php:51
+#: inc/customizer/theme-options.php:174
+msgid "Full Width Content"
+msgstr "محتوای عریض"
+
+#: inc/customizer/theme-options-woocommerce.php:68
+msgid "Enable Breadcrumbs"
+msgstr "فعال سازی Breadcrumbs"
+
+#: inc/customizer/theme-options-woocommerce.php:72
+#: inc/customizer/theme-options-woocommerce.php:213
+#: inc/customizer/theme-options-woocommerce.php:304
+#: inc/customizer/theme-options-woocommerce.php:328
+#: inc/widgets/widget-posts-latest.php:154
+#: inc/widgets/widget-product-category-grid.php:117
+#: inc/widgets/widget-store-call-to-action.php:123
+msgid "Yes"
+msgstr "بله"
+
+#: inc/customizer/theme-options-woocommerce.php:73
+#: inc/customizer/theme-options-woocommerce.php:214
+#: inc/customizer/theme-options-woocommerce.php:305
+#: inc/customizer/theme-options-woocommerce.php:329
+#: inc/widgets/widget-posts-latest.php:155
+#: inc/widgets/widget-product-category-grid.php:118
+#: inc/widgets/widget-store-call-to-action.php:122
+msgid "No"
+msgstr "خیر"
+
+#: inc/customizer/theme-options-woocommerce.php:88
+msgid "Sale Texts"
+msgstr "متون فروش"
+
+#: inc/customizer/theme-options-woocommerce.php:107
+msgid "Single Add to Cart Texts"
+msgstr "افزودن یک متن برای سبد خرید"
+
+#: inc/customizer/theme-options-woocommerce.php:124
+msgid "Simple Product Add to Cart Texts"
+msgstr "اضافه کردن ساده محصول به متون سبد خرید"
+
+#: inc/customizer/theme-options-woocommerce.php:140
+msgid "Product Search"
+msgstr "جستجوی محصول"
+
+#: inc/customizer/theme-options-woocommerce.php:158
+msgid "Product Search Placeholder"
+msgstr "جستجوی محصول"
+
+#: inc/customizer/theme-options-woocommerce.php:175
+#: inc/widgets/widgets-common-functions.php:70
+msgid "Select Category"
+msgstr "دسته ای را انتخاب کنید"
+
+#: inc/customizer/theme-options-woocommerce.php:191
+msgid "Product Loop"
+msgstr "چرخش محصول"
+
+#: inc/customizer/theme-options-woocommerce.php:209
+msgid "Show Product Category"
+msgstr "نمایش دسته بندی محصول"
+
+#: inc/customizer/theme-options-woocommerce.php:227
+msgid "Shop Page"
+msgstr "صفحه فروشگاه"
+
+#: inc/customizer/theme-options-woocommerce.php:246
+msgid "Shop Product Columns"
+msgstr "ستون های محصولات فروشگاه"
+
+#: inc/customizer/theme-options-woocommerce.php:250
+#: inc/customizer/theme-options-woocommerce.php:350
+msgid "Two"
+msgstr "دو"
+
+#: inc/customizer/theme-options-woocommerce.php:251
+#: inc/customizer/theme-options-woocommerce.php:351
+msgid "Three"
+msgstr "سه"
+
+#: inc/customizer/theme-options-woocommerce.php:252
+#: inc/customizer/theme-options-woocommerce.php:352
+msgid "Four"
+msgstr "چهار"
+
+#: inc/customizer/theme-options-woocommerce.php:268
+msgid "Products per Page"
+msgstr "محصولات در هر صفحه"
+
+#: inc/customizer/theme-options-woocommerce.php:282
+msgid "Product Page"
+msgstr "صفحه محصول"
+
+#: inc/customizer/theme-options-woocommerce.php:300
+msgid "Enable Product Zoom"
+msgstr "فعال سازی زوم روی محصول"
+
+#: inc/customizer/theme-options-woocommerce.php:324
+msgid "Show Related Products"
+msgstr "نمایش محصولات مرتبط"
+
+#: inc/customizer/theme-options-woocommerce.php:346
+msgid "Related Products per Rows"
+msgstr "محصولات مرتبط در هر ردیف"
+
+#: inc/customizer/theme-options.php:24 lib/info/info.php:72
+msgid "Theme Options"
+msgstr "تنظیمات قالب"
+
+#: inc/customizer/theme-options.php:34
+msgid "Preloader Options"
+msgstr "تنظیمات Preloader"
+
+#: inc/customizer/theme-options.php:52
+msgid "Enable preloader"
+msgstr "فعال سازی Preloader"
+
+#: inc/customizer/theme-options.php:69
+msgid "Header Options"
+msgstr "تنظیمات هدر"
+
+#: inc/customizer/theme-options.php:90
+msgid "Show Top Header"
+msgstr "نمایش بالا هدر"
+
+#: inc/customizer/theme-options.php:109
+msgid "Show Store Address and Contacts at Top Header"
+msgstr "نمایش آدرس فروشگاه و مخاطبین شبکه های اجتماعی در بالای هدر"
+
+#: inc/customizer/theme-options.php:129
+msgid "Show Social Menu at Top Header"
+msgstr "نمایش منوی شبکه های اجتماعی در بالای هدر"
+
+#: inc/customizer/theme-options.php:149
+msgid "Global Layout Options"
+msgstr "تنظیمات پیکربندی عمومی"
+
+#: inc/customizer/theme-options.php:167
+msgid "Global Content Alignment"
+msgstr "ترازبندی محتوای عمومی"
+
+#: inc/customizer/theme-options.php:168
+msgid "Select global content alignment"
+msgstr "ترازبندی عمومی محتوا را انتخاب کنید"
+
+#: inc/customizer/theme-options.php:172
+msgid "Content - Primary Sidebar"
+msgstr "محتوا - سایدبار اصلی"
+
+#: inc/customizer/theme-options.php:173
+msgid "Primary Sidebar - Content"
+msgstr "سایدبار اصلی - محتوا"
+
+#: inc/customizer/theme-options.php:183
+msgid "Secure Payment Badge Options"
+msgstr "تنظیمات پرداخت امن"
+
+#: inc/customizer/theme-options.php:241
+msgid "Footer Options"
+msgstr "تنظیمات فوتر"
+
+#: inc/customizer/theme-options.php:259
+msgid "Copyright Text"
+msgstr "متن کپی رایت"
+
+#: inc/template-functions.php:163
+#, php-format
+msgid "View all posts in %s"
+msgstr "مشاهده تمامی پست ها در %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-functions.php:306 inc/template-tags.php:90
+msgctxt "list item separator"
+msgid ", "
+msgstr "، "
+
+#: inc/template-functions.php:495
+#, php-format
+msgid ""
+"<span class=\"item-count\">%s</span><span class=\"item-texts\">item</span>"
+msgid_plural ""
+"<span class=\"item-count\">%s</span><span class=\"item-texts\">items</span>"
+msgstr[0] ""
+"<span class=\"item-count\">%s</span><span class=\"item-texts\">آیتم</span>"
+msgstr[1] ""
+"<span class=\"item-count\">%s</span><span class=\"item-texts\">آیتم</span>"
+
+#: inc/template-functions.php:560
+msgid "Search for:"
+msgstr "جستجو برای:"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "ارسال شده در %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "By %s"
+msgstr "توسط %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:83
+msgid ", "
+msgstr "، "
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:86
+#, php-format
+msgid "Posted in %1$s"
+msgstr "ارسال شده در %1$s"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:93
+#, php-format
+msgid "Tagged %1$s"
+msgstr "برچسب گذاری شده %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:104
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "پیام بگذارید<span class=\"screen-reader-text\"> در %s</span>"
+
+#: inc/tgmpa-functions.php:19
+msgid "WooCommerce"
+msgstr "ووکامرس"
+
+#: inc/tgmpa-functions.php:24
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/tgmpa-functions.php:29
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: inc/tgmpa-functions.php:34
+msgid "YITH WooCommerce Quick View"
+msgstr ""
+
+#: inc/tgmpa-functions.php:39
+msgid "YITH WooCommerce Compare"
+msgstr ""
+
+#: inc/tgmpa-functions.php:44
+msgid "Woo Floating Minicart"
+msgstr ""
+
+#: inc/tgmpa-functions.php:49
+msgid "Woo Total Sales"
+msgstr ""
+
+#: inc/tgmpa-functions.php:54
+msgid "Woo Set Price Note"
+msgstr ""
+
+#: inc/tgmpa-functions.php:59
+msgid "WP Post Author"
+msgstr ""
+
+#: inc/tgmpa-functions.php:64 lib/info/info.php:90 lib/info/info.php:144
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/widgets/widget-posts-latest.php:21
+msgid "Displays latest posts lists from selected category."
+msgstr "لیست آخرین پست ها را از دسته بندی که انتخاب کردید نمایش می دهد."
+
+#: inc/widgets/widget-posts-latest.php:25
+msgid "AFTSC Latest Posts"
+msgstr "آخرین پست ها"
+
+#: inc/widgets/widget-posts-latest.php:164
+#: inc/widgets/widget-product-category-grid.php:123
+#: inc/widgets/widget-product-grid.php:118
+#: inc/widgets/widget-store-author-info.php:158
+msgid "Title"
+msgstr "عنوان"
+
+#: inc/widgets/widget-posts-latest.php:164
+msgid "Latest Posts"
+msgstr "آخرین پست ها"
+
+#: inc/widgets/widget-posts-latest.php:165
+#: inc/widgets/widget-product-category-grid.php:124
+#: inc/widgets/widget-product-grid.php:119
+#: inc/widgets/widget-store-author-info.php:159
+msgid "Subtitle"
+msgstr "عنوان زیرین"
+
+#: inc/widgets/widget-posts-latest.php:165
+msgid "Latest Posts Subtitle"
+msgstr "عنوان زیرین آخرین پست ها"
+
+#: inc/widgets/widget-posts-latest.php:166
+msgid "Show excerpt"
+msgstr "نمایش چکیده"
+
+#: inc/widgets/widget-product-carousel.php:20
+msgid "Displays products carousel from selected category."
+msgstr ""
+"محصولات را از روی دسته ای که انتخاب کرده اید به صورت چرخشی نمایش می دهد."
+
+#: inc/widgets/widget-product-carousel.php:24
+msgid "AFTSC Product Carousel"
+msgstr "محصولات چرخشی"
+
+#: inc/widgets/widget-product-carousel.php:114
+#: inc/widgets/widget-product-grid.php:121
+msgid "Select category"
+msgstr "دسته ای را انتخاب کنید"
+
+#: inc/widgets/widget-product-category-grid.php:20
+msgid "Displays grid from selected categories."
+msgstr ""
+"محصولات را از روی دسته ای که انتخاب کرده اید به صورت شبکه ای نمایش می دهد."
+
+#: inc/widgets/widget-product-category-grid.php:24
+msgid "AFTSC Product Category Grid"
+msgstr "دسته بندی محصولات شبکه ای"
+
+#: inc/widgets/widget-product-category-grid.php:125
+#: inc/widgets/widget-product-tabbed.php:172
+msgid "Select category 1"
+msgstr "دسته بندی 1 را انتخاب کنید"
+
+#: inc/widgets/widget-product-category-grid.php:126
+#: inc/widgets/widget-product-tabbed.php:173
+msgid "Select category 2"
+msgstr "دسته بندی 2 را انتخاب کنید"
+
+#: inc/widgets/widget-product-category-grid.php:127
+#: inc/widgets/widget-product-tabbed.php:174
+msgid "Select category 3"
+msgstr "دسته بندی 3 را انتخاب کنید"
+
+#: inc/widgets/widget-product-category-grid.php:128
+msgid "Show Product Count"
+msgstr "نمایش تعداد محصولات"
+
+#: inc/widgets/widget-product-grid.php:20
+msgid "Displays products from selected category in a grid."
+msgstr "نمایش شبکه ای محصولات از دسته بندی انتخاب شده."
+
+#: inc/widgets/widget-product-grid.php:24
+msgid "AFTSC Product Grid"
+msgstr "محصولات شبکه ای"
+
+#: inc/widgets/widget-product-grid.php:118
+msgid "Product Grid"
+msgstr "محصولات شبکه ای"
+
+#: inc/widgets/widget-product-grid.php:119
+msgid "Product Grid Subtitle"
+msgstr "عنوان زیرین محصولات شبکه ای"
+
+#: inc/widgets/widget-product-grid.php:120
+msgid "Title Note"
+msgstr "عنوان یادداشت"
+
+#: inc/widgets/widget-product-tabbed.php:20
+msgid "Displays products tabbed carousel from selected categories."
+msgstr "نمایش چرخ فلکی مطالب تب از دسته هایی که انتخاب کرده اید."
+
+#: inc/widgets/widget-product-tabbed.php:24
+msgid "AFTSC Tabbed Products Carousel"
+msgstr "تب محصولات چرخشی"
+
+#: inc/widgets/widget-social-contacts.php:20
+msgid "Displays social contacts lists from Social Menu items."
+msgstr ""
+"لیست مخاطبین شبکه های اجتماعی را در منوی شبکه های اجتماعی نمایش می دهد."
+
+#: inc/widgets/widget-social-contacts.php:24
+msgid "AFTSC Social Contacts"
+msgstr "مخاطبین شبکه های اجتماعی"
+
+#: inc/widgets/widget-social-contacts.php:41
+msgid "Social Contacts"
+msgstr "مخاطبین شبکه های اجتماعی"
+
+#: inc/widgets/widget-social-contacts.php:80
+msgid ""
+"Your Social Menu is not set. You need to create menu and assign it to Social "
+"Menu from the Menu Settings."
+msgstr ""
+"منوی شبکه های اجتماعی شما تنظیم نشده است. شما باید یک منو از بخش فهرست ها "
+"ایجاد کنید و آن را به منوی شبکه های اجتماعی در قسمت تنظیمات منوی قالب اختصاص "
+"دهید."
+
+#: inc/widgets/widget-store-author-info.php:20
+msgid "Displays author info."
+msgstr "نمایش اطلاعات نویسنده."
+
+#: inc/widgets/widget-store-author-info.php:24
+msgid "AFTSC Author Info"
+msgstr "اطلاعات نویسنده"
+
+#: inc/widgets/widget-store-author-info.php:158
+msgid "About Store"
+msgstr "درباره فروشگاه"
+
+#: inc/widgets/widget-store-author-info.php:159
+msgid "About Store Subtitle"
+msgstr "عنوان زیرین درباره فروشگاه"
+
+#: inc/widgets/widget-store-author-info.php:160
+msgid "Profile image"
+msgstr "تصویر پروفایل"
+
+#: inc/widgets/widget-store-author-info.php:161
+msgid "Name"
+msgstr "نام"
+
+#: inc/widgets/widget-store-author-info.php:162
+msgid "Descriptions"
+msgstr "توضیحات"
+
+#: inc/widgets/widget-store-author-info.php:163
+msgid "Facebook"
+msgstr "فیسبوک"
+
+#: inc/widgets/widget-store-author-info.php:164
+msgid "Instagram"
+msgstr "اینستاگرام"
+
+#: inc/widgets/widget-store-author-info.php:165
+msgid "Youtube"
+msgstr "یوتیوب"
+
+#: inc/widgets/widget-store-call-to-action.php:22
+#: inc/widgets/widget-store-features.php:31
+#: inc/widgets/widget-store-offers.php:35
+msgid "Displays posts carousel from selected category."
+msgstr "نمایش چرخشی پست های دسته ای که انتخاب کردید."
+
+#: inc/widgets/widget-store-call-to-action.php:26
+msgid "AFTSC Call to Action"
+msgstr "تماس با ما"
+
+#: inc/widgets/widget-store-call-to-action.php:130
+msgid "Background Image"
+msgstr "تصویر بک گراند"
+
+#: inc/widgets/widget-store-call-to-action.php:131
+msgid "Fixed Background Image"
+msgstr "ثابت کردن تصویر بک گراند"
+
+#: inc/widgets/widget-store-features.php:35
+msgid "AFTSC Store Features"
+msgstr "ویژگی های فروشگاه"
+
+#: inc/widgets/widget-store-offers.php:39
+msgid "AFTSC Store Offers"
+msgstr "پیشنهادات فروشگاه"
+
+#: inc/widgets/widgets-base.php:219
+msgid "Upload"
+msgstr "آپلود"
+
+#: inc/widgets/widgets-base.php:220
+msgid "Select Image"
+msgstr "انتخاب تصویر"
+
+#: inc/widgets/widgets-base.php:221
+msgid "Choose Image"
+msgstr "تصویر را انتخاب کنید"
+
+#: inc/widgets/widgets-base.php:232
+msgctxt "Remove"
+msgid "X"
+msgstr ""
+
+#: inc/widgets/widgets-common-functions.php:123
+msgid "Read More"
+msgstr "ادامه مطلب"
+
+#: inc/widgets/widgets-register-sidebars.php:10
+msgid "Main Sidebar"
+msgstr "سایدبار اصلی"
+
+#: inc/widgets/widgets-register-sidebars.php:12
+msgid "Add widgets for main sidebar."
+msgstr "افزودن ابزارک برای سایدبار اصلی."
+
+#: inc/widgets/widgets-register-sidebars.php:20
+msgid "Above Banner Section"
+msgstr "قسمت بالای بنر"
+
+#: inc/widgets/widgets-register-sidebars.php:22
+msgid "Add widgets for Above Banner Section."
+msgstr "ابزارک ها را به قسمت بالای بنر اضافه کنید."
+
+#: inc/widgets/widgets-register-sidebars.php:30
+msgid "Off-canvas Panel"
+msgstr "پنل پرده ظاهرشونده"
+
+#: inc/widgets/widgets-register-sidebars.php:32
+msgid "Add widgets for off-canvas panel."
+msgstr "ابزارک ها را به پرده ظاهرشونده بفرستید."
+
+#: inc/widgets/widgets-register-sidebars.php:41
+msgid "Static Frontpage Section"
+msgstr "بخش صفحه اصلی استاتیک"
+
+#: inc/widgets/widgets-register-sidebars.php:43
+msgid "Add widgets to Static Frontpage Section."
+msgstr "ابزارک را به قسمت صفحه اصلی استاتیک اضافه کنید."
+
+#: inc/widgets/widgets-register-sidebars.php:51
+msgid "Store Sidebar"
+msgstr "سایدبار فروشگاه"
+
+#: inc/widgets/widgets-register-sidebars.php:53
+msgid "Add widgets to Store Sidebar."
+msgstr "ابزارک را با سایدبار فروشگاه اضافه کنید."
+
+#: inc/widgets/widgets-register-sidebars.php:62
+msgid "Footer First Section"
+msgstr "بخش اول فوتر"
+
+#: inc/widgets/widgets-register-sidebars.php:64
+msgid "Displays items on footer first column."
+msgstr "نمایش آیتم ها در ستون اول فوتر."
+
+#: inc/widgets/widgets-register-sidebars.php:73
+msgid "Footer Second Section"
+msgstr "بخش دوم فوتر"
+
+#: inc/widgets/widgets-register-sidebars.php:75
+msgid "Displays items on footer second column."
+msgstr "نمایش آیتم ها در ستون دوم فوتر."
+
+#: inc/widgets/widgets-register-sidebars.php:83
+msgid "Footer Third Section"
+msgstr "بخش سوم فوتر"
+
+#: inc/widgets/widgets-register-sidebars.php:85
+msgid "Displays items on footer third column."
+msgstr "نمایش آیتم ها در ستون سوم فوتر."
+
+#: inc/woocommerce.php:396
+msgid "View your shopping cart"
+msgstr "سبد خرید خود را مشاهده کنید"
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:400
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "آیتم های %d"
+msgstr[1] "آیتم %d"
+
+#: inc/woocommerce.php:536
+#, php-format
+msgid "%s has been added to your wishist."
+msgstr "%s به لیست علاقه مندی های شما اضافه شده است."
+
+#: inc/woocommerce.php:542
+msgid "WishList Items"
+msgstr "آیتم های مورد علاقه"
+
+#: inc/woocommerce.php:554
+msgid "View Wishlist"
+msgstr "نمایش لیست علاقه مندی ها"
+
+#: lib/info/class.info.php:121 lib/info/class.info.php:122
+#, php-format
+msgid "%s info"
+msgstr "اطلاعات %s"
+
+#: lib/info/class.info.php:126
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s. To fully take advantage of the best "
+"our theme can offer please make sure you visit theme details page."
+msgstr ""
+"خوش آمدی! با تشکر از شما برای انتخاب %1$s. برای استفاده هرچه بهتر از قالب ما "
+"می توانید سری به جزئیات قالب بزنید."
+
+#: lib/info/class.info.php:126
+#, php-format
+msgid "Get started with %1$s"
+msgstr "شروع کنید با %1$s"
+
+#: lib/info/class.info.php:126 lib/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "این اطلاعیه را رد کنید"
+
+#: lib/info/class.info.php:232
+#, php-format
+msgid "%s() method does not exist."
+msgstr "متد %s() وجود ندارد."
+
+#: lib/info/class.info.php:341 lib/info/class.info.php:382
+msgid "Manage Plugins"
+msgstr "مدیریت افزونه ها"
+
+#: lib/info/class.info.php:410
+msgid "Product Features"
+msgstr "ویژگی های محصول"
+
+#: lib/info/class.info.php:411
+msgid "Free"
+msgstr "رایگان"
+
+#: lib/info/class.info.php:412
+msgid "Premium"
+msgstr "پولی"
+
+#: lib/info/info.php:20
+#, php-format
+msgid ""
+"Howdy %1$s, we would like to thank you for installing and activating %2$s "
+"theme for your precious site. All of the features provided by the theme are "
+"now ready to use; Here, we have gathered all of the essential details and "
+"helpful links for you and your better experience with %2$s. Once again, "
+"Thanks for using our theme!"
+msgstr ""
+"حالتون چطوره با  %1$s، ما می خواهیم از شما برای نصب و فعال کردن قالب %2$s "
+"تشکر کنیم. تمام ویژگی های ارائه شده توسط قالب اکنون برای استفاده شما آماده "
+"است؛ در اینجا، ما تمام اطلاعات مهم و مفیدی برای شما در جهت استفاده هرچه بهتر "
+"%2$s جمع آوری کرده ایم. در آخر یک بار دیگر، از شما برای استفاده از این قالب "
+"تشکر می کنیم!"
+
+#: lib/info/info.php:24
+msgid "Getting Started"
+msgstr "آغاز شد"
+
+#: lib/info/info.php:25
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: lib/info/info.php:26
+msgid "Useful Plugins"
+msgstr "افزونه های مفید"
+
+#: lib/info/info.php:27 lib/info/info.php:88 lib/info/info.php:91
+msgid "Demo Content"
+msgstr "محتوای دمو"
+
+#: lib/info/info.php:28
+msgid "Free vs Pro"
+msgstr "رایگان در مقابل پولی"
+
+#: lib/info/info.php:29
+msgid "Upgrade to Pro"
+msgstr "ارتقاء به نسخه حرفه ای"
+
+#: lib/info/info.php:35
+msgid "Theme Details"
+msgstr "جزئیات قالب"
+
+#: lib/info/info.php:39 lib/info/info.php:99
+msgid "View Demo"
+msgstr "نمایش دمو"
+
+#: lib/info/info.php:43 lib/info/info.php:58 lib/info/info.php:121
+msgid "View Documentation"
+msgstr "نمایش مستندات"
+
+#: lib/info/info.php:47
+msgid "Rate This Theme"
+msgstr "امتیاز به این قالب"
+
+#: lib/info/info.php:55 lib/info/info.php:118
+msgid "Theme Documentation"
+msgstr "مستندات قالب"
+
+#: lib/info/info.php:57 lib/info/info.php:120
+msgid ""
+"Please check our full documentation for detailed information on how to setup "
+"and customize the theme."
+msgstr ""
+"لطفا مستندات کامل ما را برای چگونگی سفارشی سازی و استفاده از قالب بررسی "
+"نمائید."
+
+#: lib/info/info.php:64 lib/info/info.php:67
+msgid "Static Front Page"
+msgstr "صفحه اصلی استاتیک"
+
+#: lib/info/info.php:66
+msgid ""
+"To achieve custom home page other than blog listing, you need to create and "
+"set static front page."
+msgstr ""
+"برای دستیابی به صفحه اصلی برای سفارشی سازی، شما باید صفحه اصلی استاتیک را "
+"ایجاد و تنظیم نمائید."
+
+#: lib/info/info.php:74
+msgid ""
+"Theme uses Customizer API for theme options. Using the Customizer you can "
+"easily customize different aspects of the theme."
+msgstr ""
+"قالب از API برای سفارشی سازی قالب استفاده می کند. با استفاده از آن شما به "
+"راحتی می توانید قالب را در حالات مختلف سفارشی سازی کنید."
+
+#: lib/info/info.php:75
+msgid "Customize"
+msgstr "سفارشی سازی"
+
+#: lib/info/info.php:80 lib/info/info.php:83
+msgid "Widgets"
+msgstr "ابزارک ها"
+
+#: lib/info/info.php:82
+msgid ""
+"Theme uses Wedgets API for widget options. Using the Widgets you can easily "
+"customize different aspects of the theme."
+msgstr ""
+"قالب از API برای تنظیمات ابزارک استفاده می کند. با استفاده از ابزارک شما به "
+"راحتی می توانید قالب را در حالات مختلف سفارشی سازی کنید."
+
+#: lib/info/info.php:90
+#, php-format
+msgid ""
+"To import sample demo content, %1$s plugin should be installed and "
+"activated. After plugin is activated, visit Import Demo Data menu under "
+"Appearance."
+msgstr ""
+"برای وارد کردن محتوای دمو، افزونه %1$s باید نصب و فعال شود. پس از فعال شدن "
+"افزونه، به منوی Import Demo Data در قسمت نمایش مراجعه کنید."
+
+#: lib/info/info.php:96
+msgid "Theme Preview"
+msgstr "پیش نمایش قالب"
+
+#: lib/info/info.php:98
+msgid ""
+"You can check out the theme demos for reference to find out what you can "
+"achieve using the theme and how it can be customized."
+msgstr ""
+"شما می توانید با جستجویی کوچک مراجعی را برای استفاده از دموی قالب و چگونگی "
+"سفارشی سازی آن بیابید."
+
+#: lib/info/info.php:109 lib/info/info.php:112
+msgid "Contact Support"
+msgstr "تماس با پشتیبانی"
+
+#: lib/info/info.php:111
+msgid ""
+"Got theme support question or found bug or got some feedbacks? Best place to "
+"ask your query is the dedicated Support forum for the theme."
+msgstr ""
+"آیا به مشکل برخورده اید یا سئوالی از پشتیبانی قالب دارید؟ بهترین مکان برای "
+"رسیدن به جواب، انجمن تخصصی است که برای پشتیبانی این قالب راه اندازی شده است."
+
+#: lib/info/info.php:127
+msgid "Child Theme"
+msgstr "قالب فرزند"
+
+#: lib/info/info.php:129
+msgid ""
+"For advanced theme customization, it is recommended to use child theme "
+"rather than modifying the theme file itself. Using this approach, you wont "
+"lose the customization after theme update."
+msgstr ""
+"برای سفارشی سازی پیشرفته قالب، توصیه می شود از قالب فرزند استفاده کنید "
+"تغییراتتان را روی آن تست نمائید."
+
+#: lib/info/info.php:130
+msgid "Learn More"
+msgstr "بیشتر بدانید"
+
+#: lib/info/info.php:139
+msgid ""
+"Theme supports some helpful WordPress plugins to enhance your site. But, "
+"please enable only those plugins which you need in your site. For example, "
+"enable WooCommerce only if you are using e-commerce."
+msgstr ""
+"این قالب از برخی افزونه های مفید وردپرسی نیز پشتیبانی می کند تا بهره وری "
+"سایت شما را افزایش دهد. لطفا فقط افزونه هایی که به آن ها نیاز دارید را فعال "
+"نمائید. برای مثال، اگر در حوزه تجارت الکترونیک فعالیت می کنید، ووکامرس را "
+"فعال کنید."
+
+#: lib/info/info.php:144
+#, php-format
+msgid ""
+"To import demo content for this theme, %1$s plugin is needed. Please make "
+"sure plugin is installed and activated. After plugin is activated, you will "
+"see Import Demo Data menu under Appearance."
+msgstr ""
+"برای وارد کردن محتوای دمو برای این قالب، افزونه %1$s مورد نیاز است. لطفا "
+"مطمئن شوید که افزونه نصب و فعال شده است. پس از فعال شدن افزونه، Import Demo "
+"Data را در منوی \"نمایش\" خواهید دید."
+
+#: lib/info/info.php:210
+msgid ""
+"If you want more advanced features then you can upgrade to the premium "
+"version of the theme."
+msgstr ""
+"اگر می خواهید ویژگی های پیشرفته تری داشته باشید، می توانید به نسخه حرفه ای "
+"این قالب ارتقاء دهید."
+
+#: lib/info/info.php:211
+msgid "Upgrade Now"
+msgstr "اکنون ارتقاء دهید"
+
+#: lib/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "نصب افزونه های مورد نیاز"
+
+#: lib/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "نصب افزونه ها"
+
+#. translators: %s: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "نصب افزونه: %s"
+
+#. translators: %s: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "به روزرسانی افزونه: %s"
+
+#: lib/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "در API افزونه اشتباهی رخ داد."
+
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "این قالب نیاز به افزونه های زیر دارد: %1$s."
+msgstr[1] "این قالب نیاز به افزونه زیر دارد: %1$s."
+
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "این قالب، افزونه های زیر را توصیه می کند: %1$s."
+msgstr[1] "این قالب، افزونه زیر را توصیه می کند: %1$s."
+
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"افزونه های زیر باید به آخرین نسخه آن به روزرسانی شود تا اطمینان حاصل شود "
+"حداکثر سازگاری با این قالب را دارد: %1$s."
+msgstr[1] ""
+"افزونه زیر باید به آخرین نسخه آن به روزرسانی شود تا اطمینان حاصل شود حداکثر "
+"سازگاری با این قالب را دارد: %1$s."
+
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "به روزرسانی های موجود برای افزونه های زیر وجود دارد: %1$s."
+msgstr[1] "به روزرسانی موجود برای %1$s وجود دارد."
+
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "افزونه های مورد نیاز زیر در حال حاضر غیر فعال است:  %1$s."
+msgstr[1] "افزونه مورد نیاز زیر در حال حاضر غیر فعال است:  %1$s."
+
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "افزونه های توصیه شده زیر در حال حاضر غیر فعال است: %1$s."
+msgstr[1] "افزونه توصیه شده زیر در حال حاضر غیر فعال است: %1$s."
+
+#: lib/tgm/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "افزونه ها را نصب کنید"
+msgstr[1] "افزونه را نصب کنید"
+
+#: lib/tgm/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "افزونه ها را به روزرسانی کنید"
+msgstr[1] "افزونه را به روزرسانی کنید"
+
+#: lib/tgm/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "افزونه ها را فعال کنید"
+msgstr[1] "افزونه را فعال کنید"
+
+#: lib/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "بازگشت برای نصب افزونه های مورد نیاز"
+
+#: lib/tgm/class-tgm-plugin-activation.php:386
+#: lib/tgm/class-tgm-plugin-activation.php:827
+#: lib/tgm/class-tgm-plugin-activation.php:2533
+#: lib/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "برگشت به داشتبورد مدیریت"
+
+#: lib/tgm/class-tgm-plugin-activation.php:387
+#: lib/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "افزونه با موفقیت فعال شد."
+
+#: lib/tgm/class-tgm-plugin-activation.php:388
+#: lib/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "افزونه های زیر با موفقیت فعال شد:"
+msgstr[1] "افزونه زیر با موفقیت فعال شد:"
+
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "اقداماتی انجام نشد. افزونه %1$s در حال حاضر فعال بود."
+
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"افزونه فعال نشده است. نسخه بالاتر %s برای این قالب مورد نیاز است. لطفا "
+"افزونه را به روزرسانی کنید."
+
+#. translators: 1: dashboard link.
+#: lib/tgm/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "تمامی افزونه ها با موفقیت نصب و فعال شدند. %1$s"
+
+#: lib/tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"یک یا چند افزونه مورد نیاز یا توصیه شده برای نصب، به روزرسانی یا فعال سازی "
+"وجود دارد."
+
+#: lib/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "لطفا برای راهنمایی رساندن به مدیر سایت با وی تماس بگیرید."
+
+#: lib/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "این افزونه باید به روزرسانی شود تا با قالب شما سازگار باشد."
+
+#: lib/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "نیازمند به روزرسانی"
+
+#: lib/tgm/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr "پکیج افزونه از راه دور حاوی با تغییر نام کار نمی کند."
+
+#: lib/tgm/class-tgm-plugin-activation.php:934
+#: lib/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"لطفا با نویسنده افزونه تماس بگیرید و از وی بخواهید افزونه خود را با توجه به "
+"دستورالعمل وردپرس پکیج کند."
+
+#: lib/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"پکیج افزونه از راه دور شامل بیش از یک فایل است، اما فایل ها در یک پوشه پکیج "
+"نمی شوند."
+
+#: lib/tgm/class-tgm-plugin-activation.php:1121
+#: lib/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "و"
+
+#. translators: %s: version number
+#: lib/tgm/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "مورد نیاز"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "توصیه شده"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "مخزن وردپرس"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "منبع خارجی"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "نصب نشده است"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "نصب شده است اما فعال نشده است"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "فعال سازی"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "به روزرسانی مورد نیاز در دسترس نیست"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "نیازمند به روزرسانی"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "به روزرسانی توصیه می شود"
+
+#. translators: 1: install status, 2: update status
+#: lib/tgm/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s، %2$s"
+
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "همه <span class=\"count\">(%s)</span>"
+msgstr[1] "همه <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "برای نصب <span class=\"count\">(%s)</span>"
+msgstr[1] "برای نصب <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "به روزرسانی در دسترس <span class=\"count\">(%s)</span>"
+msgstr[1] "به روزرسانی در دسترس <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "برای فعال سازی <span class=\"count\">(%s)</span>"
+msgstr[1] "فعال سازی <span class=\"count\">(%s)</span>"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "نامعلوم"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "نسخه نصب شده:"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "حداقل نسخه مورد نیاز:"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "نسخه در دسترس:"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "افزونه ای برای نصب، به روزرسانی یا فعال سازی نیست."
+
+#: lib/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "افزونه"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "منبع"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "نوع"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "نسخه"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "وضعیت"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/tgm/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "نصب %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/tgm/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "به روزرسانی %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/tgm/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "فعال سازی %2$s"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "پیغام نویسنده افزونه برای ارتقاء:"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "نصب"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "به روزرسانی"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "فعال سازی"
+
+#: lib/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "هیچ افزونه ای برای نصب انتخاب نشده است."
+
+#: lib/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "هیچ افزونه ای برای به روزرسانی انتخاب نشده است."
+
+#: lib/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "در حال حاضر هیچ افزونه ای برای نصب وجود ندارد."
+
+#: lib/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "در حال حاضر هیچ افزونه ای در دسترس نیست."
+
+#: lib/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "هیچ افزونه ای برای فعال شدن انتخاب نشده است."
+
+#: lib/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "هیچ افزونه ای در این لحظه فعال نیست."
+
+#: lib/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "فعال سازی افزونه ناموفق بود."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/tgm/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "به روزرسانی افزونه %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: lib/tgm/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "هنگام نصب %1$s خطایی رخ داد: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "نصب %1$s ناموفق بود."
+
+#: lib/tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"روند نصب و فعال سازی شروع شده است. این فرآیند ممکن است در برخی از هاست طول "
+"بکشد، بنابراین لطفا صبور باشید."
+
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:3509
+#: lib/tgm/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s done."
+msgstr "%1$s انجام شد."
+
+#: lib/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "تمامی نصب ها و فعال سازی ها انجام شده اند."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/tgm/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "نصب و فعال سازی افزونه %1$s (%2$d/%3$d)"
+
+#: lib/tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"روند نصب شروع شده است. این فرآیند ممکن است در برخی از هاست ها طول بکشد، "
+"بنابراین لطفا صبور باشید."
+
+#: lib/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "تمامی نصب ها انجام شد."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/tgm/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "نصب افزونه %1$s (%2$d/%3$d)"
+
+#. translators: %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr "نتایج جستجو برای: %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "چیزی پیدا نشد"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"آماده ارسال اولین پست خود هستید؟ <a href=\"%1$s\"> از اینجا شروع کنید </a>."
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"با عرض پوزش، هیچ چیزی مطابق با جستجوی شما یافت نشد. لطفا این بار با کلمات "
+"کلیدی مختلف، جستجو را امتحان کنید."
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"به نظر می رسد ما نمی توانیم چیزی را به دنبالش هستید پیدا کنیم. شاید جستجو در "
+"سایت بتواند کمکتان کند."
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:51
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "ادامه را بخوانید<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. Theme Name of the plugin/theme
+msgid "StoreCommerce"
+msgstr "استورکامرس"
+
+#. Theme URI of the plugin/theme
+msgid "https://afthemes.com/products/storecommerce/"
+msgstr "https://demo.hamyarwp.com/storecommerce/"
+
+#. Author of the plugin/theme
+msgid "AF themes"
+msgstr "همیار وردپرس"
+
+#. Author URI of the plugin/theme
+msgid "https://afthemes.com/"
+msgstr "https://hamyarwp.com/"
+
+#. Template Name of the plugin/theme
+msgid "Front-page Template"
+msgstr "الگوی صفحه اصلی"

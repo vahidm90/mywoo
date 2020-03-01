@@ -1,0 +1,5 @@
+#!/bin/bash
+WORKDIR=${1:-.}
+rm ~/Desktop/bin.zip
+zip ~/Desktop/bin.zip $(find ${WORKDIR} -path "*/bin/*" -o -path "*/uploads/*" -o -name "*.jpg" -o -name "*.png" -o -name "*.ttf" -o -name "*.eot" -o -name "*.woff" -o -name "*.woff2" -o -name "*.otf" -o -name "*.svg" -o -name "*.gif" -o -name "*.wav" -o -name "*.swf" -o -name "*.pdf")
+chown vahid:vahid ~/Desktop/bin.zip
