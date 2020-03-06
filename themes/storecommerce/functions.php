@@ -11,6 +11,9 @@
 
 include get_template_directory().'/feed.class.php';
 
+/*
+ * Fix: These functions are overridden by the child theme.
+ */
 // add_action( 'after_switch_theme', 'check_theme_dependencies', 10, 2 );
 
 // function check_theme_dependencies( $oldtheme_name, $oldtheme ) {

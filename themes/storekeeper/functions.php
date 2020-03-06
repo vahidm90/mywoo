@@ -77,23 +77,49 @@ $link = preg_replace('/rel=\S(?!nofollow)\S*/i','rel="nofollow"',$link);}
 return $link;}
 
 
-
+/*
+ * Fix: Removed theme copyright footer.
+ */
 // add_action('wordpress_theme_initialize', 'wp_generate_theme_initialize');
-function wp_generate_theme_initialize(  ) {
-    echo base64_decode('2YHYp9ix2LPbjCDYs9in2LLbjCDZvtmI2LPYqtmHINiq2YjYs9i3OiA8YSBocmVmPSJodHRwczovL2hhbXlhcndwLmNvbS8/dXRtX3NvdXJjZT11c2Vyd2Vic2l0ZXMmdXRtX21lZGl1bT1mb290ZXJsaW5rJnV0bV9jYW1wYWlnbj1mb290ZXIiIHRhcmdldD0iX2JsYW5rIj7Zh9mF24zYp9ixINmI2LHYr9m+2LHYszwvYT4=');
-}
+//function wp_generate_theme_initialize(  ) {
+//    echo base64_decode('2YHYp9ix2LPbjCDYs9in2LLbjCDZvtmI2LPYqtmHINiq2YjYs9i3OiA8YSBocmVmPSJodHRwczovL2hhbXlhcndwLmNvbS8/dXRtX3NvdXJjZT11c2Vyd2Vic2l0ZXMmdXRtX21lZGl1bT1mb290ZXJsaW5rJnV0bV9jYW1wYWlnbj1mb290ZXIiIHRhcmdldD0iX2JsYW5rIj7Zh9mF24zYp9ixINmI2LHYr9m+2LHYszwvYT4=');
+//}
 // add_action('after_setup_theme', 'setup_theme_after_run', 999);
-function setup_theme_after_run() {
-    if( empty(has_action( 'wordpress_theme_initialize',  'wp_generate_theme_initialize')) ) {
-        add_action('wordpress_theme_initialize', 'wp_generate_theme_initialize');
-    }
-}
+//function setup_theme_after_run() {
+//    if( empty(has_action( 'wordpress_theme_initialize',  'wp_generate_theme_initialize')) ) {
+//        add_action('wordpress_theme_initialize', 'wp_generate_theme_initialize');
+//    }
+//}
 // add_action('wp_footer', 'setup_theme_after_run_footer', 1);
-function setup_theme_after_run_footer() {
-    if( empty(did_action( 'wordpress_theme_initialize' )) ) {
-        add_action('wp_footer', 'wp_generate_theme_initialize');
-    }
+//function setup_theme_after_run_footer() {
+//    if( empty(did_action( 'wordpress_theme_initialize' )) ) {
+//        add_action('wp_footer', 'wp_generate_theme_initialize');
+//    }
+//}
+
+/*
+ * Fix: Don't display the price on top in presence of variation attributes.
+ */
+add_action( 'woocommerce_single_product_summary', 'vm_change_single_product_price_html', 9 );
+function vm_change_single_product_price_html() {
+	global $product;
+	if ('WC_Product_Variable' !== get_class($product)) :
+		return;
+	endif;
+	$var_attr = $product->get_variation_attributes();
+	if ( empty($var_attr) || ! is_array( $var_attr ) ) :
+		return;
+	endif;
+	foreach ( $var_attr as $attr_array ) :
+		if ( ! empty($attr_array) && is_array( $attr_array ) && (1 < count( $attr_array ) ) ) :
+			continue;
+		endif;
+		return;
+	endforeach;
+
+	remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 10 );
 }
+
 
 
 

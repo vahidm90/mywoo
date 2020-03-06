@@ -154,12 +154,24 @@ if (!function_exists('awpa_get_author_block')) {
 add_filter('the_content', 'awpa_add_author');
 if (!function_exists('awpa_add_author')) {
  function awpa_add_author($content){
+
+	 /*
+	 * Fix : Exclude any 'post_type' other than 'post'.
+	 *
+	 */
+	 global $post;
+
+     if ( 'post' !== $post->post_type ) :
+         return $content;
+     endif;
+
      if(is_single()){
          $options = get_option('awpa_setting_options');
-         if(!isset($options['hide_from_post_content'])){
-             
 
-                 $title = $options['awpa_global_title'];
+         if(!isset($options['hide_from_post_content'])){
+
+
+		     $title = $options['awpa_global_title'];
                  $align = $options['awpa_global_align'];
                  $image_layout = $options['awpa_global_image_layout'];
                  $show_role = $options['awpa_global_show_role'];

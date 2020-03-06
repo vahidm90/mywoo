@@ -1034,7 +1034,7 @@ span.awspn_price_note {
 }
 .woocommerce div.product p.stock.out-of-stock:before {
 	content: "\f00d";
-	font-family: "Font Awesome 5 Free";
+	font-family: FontAwesome;
 	font-weight: 900;
 	padding-right: 5px;
 	color: red;
